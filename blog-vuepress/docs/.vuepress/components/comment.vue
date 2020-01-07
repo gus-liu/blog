@@ -18,12 +18,12 @@ export default {
     // console.log('location.pathname :', location.pathname);
     script.onload = () => {
       const commentConfig = {
-        clientID: 'XXXX',
-        clientSecret: 'XXXX', // come from github development
-        repo: 'blog',
-        owner: 'biaochenxuying',
+        clientID: 'Iv1.5534205c884ef645',
+        clientSecret: '9a5ae93cb5ed49587aa0fa1f337636561397f984', // come from github development
+        repo: 'xuanwu-mall',
+        owner: 'mallplus',
         // 这里接受一个数组，可以添加多个管理员，可以是你自己
-        admin: ['biaochenxuying'],
+        admin: ['mallplus'],
         // id: 'comment',
         // id: decodeURI(path),      // 每个页面根据 url 生成对应的 issue，保证页面之间的评论都是独立的
         // id 用于当前页面的唯一标识，一般来讲 pathname 足够了，
